@@ -192,7 +192,7 @@ function checkWinCondition() {
   }
 
   if(counter == 9) {
-    declareWinner('We tied');
+    declareWinner('We Tied');
   }
 
 }
@@ -210,7 +210,7 @@ function declareWinner(winner) {
     scoreboardY.textContent = parseInt(scoreboardY.textContent) + 1;
     msg = "Player 2 win";
   } else {
-    msg = "Deu velha!";
+    msg = "We Tied!";
   }
 
   messageText.innerHTML = msg;
